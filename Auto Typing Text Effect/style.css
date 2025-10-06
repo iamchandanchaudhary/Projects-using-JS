@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111;
+    font-family: poppins;
+    height: 100vh;
+}
+
+h1 {
+    display: flex;
+    color: #fff;
+    font-size: 52px;
+
+    margin: 20px;
+}
+
+.auto-type {
+    color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 5px;
+}
+
+.auto-type::after {
+    content: '';
+    height: 55px;
+    width: 3px;
+    background-color: brown;
+
+    display: inline;
+    margin-left: 8px;
+}
