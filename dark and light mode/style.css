@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+body.dark {
+    background-color: #292727;
+    color: rgb(230, 230, 230);
+}
+
+.container {
+    width: 70vw;
+    height: 20vh;
+
+    border: 2px solid blue;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin-top: 15px;
+
+    background-color: white;
+    color: black;
+}
+
+.container-dark {
+    background-color: #292727;
+    color: rgb(230, 230, 230);
+}
