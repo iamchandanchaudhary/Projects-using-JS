@@ -18,7 +18,7 @@ body {
     width: 7em;
     aspect-ratio: 1/0.25;
     color: white;
-    background: #7678ed;
+    background: #800f2f;
     background-size: cover;
     background-blend-mode: overlay;
     border-radius: 0.5em;
@@ -35,8 +35,8 @@ body {
     background: linear-gradient(45deg, #212121, #252525);
     background: radial-gradient(
       circle at bottom,
-      rgb(118, 120, 237, 0.3) 10%,
-      #7678ed 70%
+      rgb(128, 15, 47, 0.4) 10%,
+      #800f2f 70%
     );
     outline: 0;
   }
